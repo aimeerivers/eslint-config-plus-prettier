@@ -1,5 +1,5 @@
 {
-  "name": "eslint-prettier-config",
+  "name": "aimeerivers-eslint-prettier-config",
   "version": "1.0.0",
   "description": "Standard config for ESLint and Prettier",
   "main": "index.js",

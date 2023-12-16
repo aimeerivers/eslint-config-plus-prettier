@@ -1,4 +1,4 @@
-# eslint-prettier-config
+# aimeerivers-eslint-prettier-config
 
 Standard config for ESLint and Prettier
 
