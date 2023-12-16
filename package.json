@@ -1,0 +1,15 @@
+{
+  "name": "eslint-prettier-config",
+  "version": "1.0.0",
+  "description": "Standard config for ESLint and Prettier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aimee rivers",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.1"
+  }
+}
