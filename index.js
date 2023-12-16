@@ -6,6 +6,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
   ],
   rules: {
+    '@typescript-eslint/no-floating-promises': ['off'],
     'prefer-const': [
       'error',
       {
