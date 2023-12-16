@@ -13,12 +13,9 @@
   "author": "aimee rivers",
   "license": "ISC",
   "peerDependencies": {
-    "eslint": "^8.56.0",
-    "prettier": "^3.1.1"
-  },
-  "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.14.0",
     "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-standard-with-typescript": "^43.0.0",
     "eslint-plugin-import": "^2.29.1",
@@ -26,6 +23,7 @@
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-simple-import-sort": "^10.0.0",
-    "eslint-plugin-unused-imports": "^3.0.0"
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "prettier": "^3.1.1"
   }
 }
