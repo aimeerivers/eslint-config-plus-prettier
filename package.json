@@ -5,7 +5,8 @@
   "main": "index.js",
   "files": [
     "index.js",
-    ".prettierrc.json"
+    ".prettierrc.json",
+    "tsconfig.json"
   ],
   "scripts": {
     "lint": "eslint . --ext .ts,.js --fix",
