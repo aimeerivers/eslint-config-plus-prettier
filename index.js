@@ -1,19 +1,10 @@
-{
-  "env": {
-    "browser": true,
-    "es2021": true
-  },
-  "extends": [
+module.exports = {
+  extends: [
     "standard-with-typescript",
     "plugin:prettier/recommended",
     "plugin:@typescript-eslint/recommended"
   ],
-  "plugins": ["simple-import-sort", "unused-imports"],
-  "parserOptions": {
-    "ecmaVersion": "latest",
-    "sourceType": "module"
-  },
-  "rules": {
+  rules: {
     "prefer-const": [
       "error",
       {
@@ -40,5 +31,10 @@
     ],
     "sort-imports": ["off"],
     "simple-import-sort/imports": "error"
+  },
+  plugins: ["simple-import-sort", "unused-imports"],
+  parserOptions: {
+    ecmaVersion: "latest",
+    sourceType: "module"
   }
-}
+};
