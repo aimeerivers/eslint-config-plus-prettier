@@ -32,6 +32,11 @@ Add prettier config to `package.json`:
 
     "prettier": "eslint-config-plus-prettier/.prettierrc.json"
 
+Consider adding a `.prettierignore` file to avoid formatting generated files:
+
+    package-lock.json
+    CHANGELOG.md
+
 ### Configure TSConfig (optional)
 
 Add a `tsconfig.json` file with the following:
