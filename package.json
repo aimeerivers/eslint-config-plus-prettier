@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-plus-prettier",
-  "version": "1.0.2-alpha-8",
+  "version": "1.0.2",
   "description": "Standard config for ESLint and Prettier",
   "main": "index.js",
   "files": [
