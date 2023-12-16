@@ -1,10 +1,21 @@
-# aimeerivers-eslint-prettier-config
+# eslint-config-plus-prettier
 
 Standard config for ESLint and Prettier
 
 ## Install
 
-    npm install --save-dev aimeerivers-eslint-prettier-config
+    npm install --save-dev eslint-config-plus-prettier
+    npx install-peerdeps --dev eslint-config-plus-prettier
+
+Add a `.eslintrc.json` file with the following:
+
+    {
+      "extends": "eslint-config-plus-prettier"
+    }
+
+Add prettier config to `package.json`:
+
+    "prettier": "eslint-config-plus-prettier/.prettierrc.json"
 
 Add the following scripts:
 
@@ -17,3 +28,6 @@ Add the following scripts:
 
     npm run lint
     npm run format
+
+- Linting will check for errors and fix formatting in `.ts` and `.js` files.
+- Formatting will apply format rules to all possible files.
