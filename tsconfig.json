@@ -6,6 +6,5 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "outDir": "./dist"
-  },
-  "include": ["./**/*"]
+  }
 }
