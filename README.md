@@ -4,7 +4,7 @@ Standard config for ESLint and Prettier
 
 ## Install
 
-    npm install --save-dev eslint-prettier-config
+    npm install --save-dev aimeerivers-eslint-prettier-config
 
 Add the following scripts:
 
