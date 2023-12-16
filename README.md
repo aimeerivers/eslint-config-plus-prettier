@@ -1,6 +1,6 @@
 # eslint-config-plus-prettier
 
-Standard config for ESLint and Prettier
+Standard config for ESLint and Prettier. Also includes an optional TSConfig.
 
 ## Install
 
@@ -22,6 +22,15 @@ Add the following scripts:
     "scripts": {
       "lint": "eslint . --ext .ts,.js --fix",
       "format": "prettier --write ."
+    }
+
+## Optional: TSConfig
+
+Add a `tsconfig.json` file with the following:
+
+    {
+      "extends": "eslint-config-plus-prettier/tsconfig.json",
+      "include": ["src"] // Specify which files should be compiled
     }
 
 ## Use
