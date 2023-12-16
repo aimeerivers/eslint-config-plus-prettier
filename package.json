@@ -1,10 +1,10 @@
 {
   "name": "aimeerivers-eslint-prettier-config",
-  "version": "1.0.2-alpha-3",
+  "version": "1.0.2-alpha-4",
   "description": "Standard config for ESLint and Prettier",
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "files": [
-    "index.js",
+    ".eslintrc.js",
     ".prettierrc.json"
   ],
   "scripts": {
