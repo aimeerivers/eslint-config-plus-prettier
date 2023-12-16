@@ -7,24 +7,32 @@ Standard config for ESLint and Prettier. Also includes an optional TSConfig.
     npm install --save-dev eslint-config-plus-prettier
     npx install-peerdeps --dev eslint-config-plus-prettier
 
-Add a `.eslintrc.json` file with the following:
-
-    {
-      "extends": "eslint-config-plus-prettier"
-    }
-
-Add prettier config to `package.json`:
-
-    "prettier": "eslint-config-plus-prettier/.prettierrc.json"
-
-Add the following scripts:
+Add the following scripts to your `package.json`:
 
     "scripts": {
       "lint": "eslint . --ext .ts,.js --fix",
       "format": "prettier --write ."
     }
 
-## Optional: TSConfig
+### Configure ESLint
+
+Add a `.eslintrc.json` file with the following:
+
+    {
+      "extends": "eslint-config-plus-prettier"
+    }
+
+Consider adding a `.eslintignore` file to avoid trying to lint compiled code in the `dist` folder:
+
+    dist
+
+### Configure Prettier
+
+Add prettier config to `package.json`:
+
+    "prettier": "eslint-config-plus-prettier/.prettierrc.json"
+
+### Configure TSConfig (optional)
 
 Add a `tsconfig.json` file with the following:
 
