@@ -43,7 +43,10 @@ Add a `tsconfig.json` file with the following:
 
     {
       "extends": "eslint-config-plus-prettier/tsconfig.json",
-      "include": ["src"] // Specify which files should be compiled
+      "include": ["src"], // Files to be compiled
+      "compilerOptions": {
+        "outDir": "dist" // Compiled directory
+      }
     }
 
 ## Use
