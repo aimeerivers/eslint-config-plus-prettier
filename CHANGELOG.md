@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.3.0...v1.4.0) (2023-12-20)
+
+
+### Features
+
+* **prettier:** enforce double quotes and increase line length to 120 ([#10](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/10)) ([d6e67ae](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/d6e67ae1c62620fb93490d258d12c7d8b9daadb6))
+
 ## [1.3.0](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.2.1...v1.3.0) (2023-12-18)
 
 
