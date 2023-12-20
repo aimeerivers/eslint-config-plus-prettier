@@ -1,42 +1,39 @@
 module.exports = {
   root: true,
-  extends: [
-    'standard-with-typescript',
-    'plugin:prettier/recommended',
-    'plugin:@typescript-eslint/recommended',
-  ],
+  extends: ["standard-with-typescript", "plugin:prettier/recommended", "plugin:@typescript-eslint/recommended"],
   rules: {
-    '@typescript-eslint/no-floating-promises': ['off'],
-    'prefer-const': [
-      'error',
+    "@typescript-eslint/no-floating-promises": ["off"],
+    "prefer-const": [
+      "error",
       {
-        destructuring: 'any',
+        destructuring: "any",
         ignoreReadBeforeAssign: false,
       },
     ],
-    'unused-imports/no-unused-imports': 'error',
-    '@typescript-eslint/consistent-type-imports': [
-      'error',
+    "unused-imports/no-unused-imports": "error",
+    "@typescript-eslint/consistent-type-imports": [
+      "error",
       {
-        prefer: 'type-imports',
+        prefer: "type-imports",
         disallowTypeAnnotations: false,
       },
     ],
-    'import/order': [
-      'error',
+    "import/order": [
+      "error",
       {
         alphabetize: {
-          order: 'asc',
+          order: "asc",
           caseInsensitive: true,
         },
       },
     ],
-    'sort-imports': ['off'],
-    'simple-import-sort/imports': 'error',
+    "sort-imports": ["off"],
+    "simple-import-sort/imports": "error",
+    quotes: ["error", "double"],
   },
-  plugins: ['simple-import-sort', 'unused-imports'],
+  plugins: ["simple-import-sort", "unused-imports"],
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
+    ecmaVersion: "latest",
+    sourceType: "module",
   },
 };
