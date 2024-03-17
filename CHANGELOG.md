@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.4.1...v1.4.2) (2024-03-17)
+
+
+### Bug Fixes
+
+* remove deprecated eslint plugin ([#15](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/15)) ([f9e5650](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/f9e5650c0d23c6fba49d04369a349e57e1c2fca4))
+
 ## [1.4.1](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.4.0...v1.4.1) (2024-03-17)
 
 
