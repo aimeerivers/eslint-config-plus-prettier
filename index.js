@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: ["standard-with-typescript", "plugin:prettier/recommended", "plugin:@typescript-eslint/recommended"],
+  extends: ["love", "plugin:prettier/recommended", "plugin:@typescript-eslint/recommended"],
   rules: {
     "@typescript-eslint/no-floating-promises": ["off"],
     "prefer-const": [
