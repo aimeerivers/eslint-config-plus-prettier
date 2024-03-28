@@ -28,10 +28,9 @@ module.exports = {
       },
     ],
     "sort-imports": ["off"],
-    "simple-import-sort/imports": "error",
     quotes: ["error", "double"],
   },
-  plugins: ["simple-import-sort", "unused-imports"],
+  plugins: ["unused-imports"],
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
