@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.3](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.4.2...v1.4.3) (2024-03-28)
+
+
+### Bug Fixes
+
+* **package.json:** remove simple-import-sort plugin ([#17](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/17)) ([12a0700](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/12a0700b22d7da1b0efe5179448431241af42c74))
+
 ## [1.4.2](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.4.1...v1.4.2) (2024-03-17)
 
 
