@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: ["love", "plugin:prettier/recommended", "plugin:@typescript-eslint/recommended"],
+  extends: ["plugin:prettier/recommended", "plugin:@typescript-eslint/recommended"],
   rules: {
     "@typescript-eslint/no-floating-promises": ["off"],
     "prefer-const": [
@@ -16,15 +16,6 @@ module.exports = {
       {
         prefer: "type-imports",
         disallowTypeAnnotations: false,
-      },
-    ],
-    "import/order": [
-      "error",
-      {
-        alphabetize: {
-          order: "asc",
-          caseInsensitive: true,
-        },
       },
     ],
     "sort-imports": ["off"],
