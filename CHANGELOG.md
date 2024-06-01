@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.5.0...v1.5.1) (2024-06-01)
+
+
+### Bug Fixes
+
+* **deps:** add eslint parser ([#22](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/22)) ([026ef7b](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/026ef7bcf9a6f205d76f7431dddec4fa2e8abe50))
+
 ## [1.5.0](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.4.3...v1.5.0) (2024-05-30)
 
 
