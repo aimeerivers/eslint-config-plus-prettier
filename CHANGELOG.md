@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.2](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.5.1...v1.5.2) (2024-06-01)
+
+
+### Bug Fixes
+
+* **deps:** add simple import sort ([#24](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/24)) ([6a8a6f5](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/6a8a6f5c661bcb895725d72c40476c3e8ce9ba97))
+
 ## [1.5.1](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.5.0...v1.5.1) (2024-06-01)
 
 
