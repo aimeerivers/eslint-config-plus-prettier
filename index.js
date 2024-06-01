@@ -1,6 +1,7 @@
 module.exports = {
   root: true,
   parser: "@typescript-eslint/parser",
+  plugins: ["simple-import-sort"],
   rules: {
     "@typescript-eslint/no-floating-promises": ["off"],
     "prefer-const": [
@@ -10,7 +11,8 @@ module.exports = {
         ignoreReadBeforeAssign: false,
       },
     ],
-    "sort-imports": ["off"],
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
     quotes: ["error", "double"],
   },
 };
