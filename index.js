@@ -1,5 +1,6 @@
 module.exports = {
   root: true,
+  parser: "@typescript-eslint/parser",
   rules: {
     "@typescript-eslint/no-floating-promises": ["off"],
     "prefer-const": [
@@ -11,9 +12,5 @@ module.exports = {
     ],
     "sort-imports": ["off"],
     quotes: ["error", "double"],
-  },
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
   },
 };
