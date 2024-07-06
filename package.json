@@ -2,18 +2,18 @@
   "name": "eslint-config-plus-prettier",
   "version": "1.5.2",
   "description": "Standard config for ESLint and Prettier",
-  "main": "index.js",
+  "license": "ISC",
+  "author": "aimee rivers",
   "files": [
     "index.js",
     ".prettierrc.json",
     "tsconfig.json"
   ],
+  "main": "index.js",
   "scripts": {
-    "lint": "eslint . --ext .ts,.js --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "lint": "eslint . --ext .ts,.js --fix"
   },
-  "author": "aimee rivers",
-  "license": "ISC",
   "peerDependencies": {
     "@typescript-eslint/parser": "^7.11.0",
     "eslint-config-prettier": "^9.1.0",
