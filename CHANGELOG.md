@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.3](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.5.2...v1.5.3) (2024-07-06)
+
+
+### Bug Fixes
+
+* **package.json:** tidy up package.json and ensure ongoing code quality ([#26](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/26)) ([add91b5](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/add91b503c91bd633053ff81360d3b25234278a8))
+
 ## [1.5.2](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.5.1...v1.5.2) (2024-06-01)
 
 
