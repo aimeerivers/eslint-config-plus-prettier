@@ -12,7 +12,9 @@
   "main": "index.js",
   "scripts": {
     "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "lint": "eslint . --ext .ts,.js --fix",
+    "lint:check": "eslint . --ext .ts,.js",
     "package:lint": "npx npm-package-json-lint ."
   },
   "devDependencies": {
