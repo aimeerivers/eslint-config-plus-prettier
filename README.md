@@ -10,8 +10,10 @@ Standard config for ESLint and Prettier. Also includes an optional TSConfig.
 Add the following scripts to your `package.json`:
 
     "scripts": {
+      "format": "prettier --write .",
+      "format:check": "prettier --check .",
       "lint": "eslint . --ext .ts,.js --fix",
-      "format": "prettier --write ."
+      "lint:check": "eslint . --ext .ts,.js"
     }
 
 ### Configure ESLint
@@ -54,5 +56,5 @@ Add a `tsconfig.json` file with the following:
     npm run lint
     npm run format
 
-- Linting will check for errors and fix formatting in `.ts` and `.js` files.
-- Formatting will apply format rules to all possible files.
+- `lint` will check for errors and fix formatting in `.ts` and `.js` files.
+- `format` will apply format rules to all possible files.
