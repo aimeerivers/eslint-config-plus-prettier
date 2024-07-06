@@ -12,7 +12,8 @@
   "main": "index.js",
   "scripts": {
     "format": "prettier --write .",
-    "lint": "eslint . --ext .ts,.js --fix"
+    "lint": "eslint . --ext .ts,.js --fix",
+    "package:lint": "npx npm-package-json-lint ."
   },
   "devDependencies": {
     "npm-package-json-lint": "8.0.0"
