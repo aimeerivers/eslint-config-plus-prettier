@@ -5,7 +5,6 @@ Standard config for ESLint and Prettier. Also includes an optional TSConfig.
 ## Install
 
     npm install --save-dev eslint-config-plus-prettier
-    npx install-peerdeps --dev eslint-config-plus-prettier
 
 Add the following scripts to your `package.json`:
 
