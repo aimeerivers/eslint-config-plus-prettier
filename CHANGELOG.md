@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.4](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.5.3...v1.5.4) (2024-07-11)
+
+
+### Dependencies
+
+* change to using dependencies instead of peerDependencies ([#32](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/32)) ([89a21f2](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/89a21f279efe848a32a06ca86a8d696994c6d6d1))
+
 ## [1.5.3](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.5.2...v1.5.3) (2024-07-06)
 
 
