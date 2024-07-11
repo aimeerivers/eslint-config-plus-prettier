@@ -5,8 +5,8 @@
   "license": "ISC",
   "author": "aimee rivers",
   "files": [
-    "index.js",
     ".prettierrc.json",
+    "index.js",
     "tsconfig.json"
   ],
   "main": "index.js",

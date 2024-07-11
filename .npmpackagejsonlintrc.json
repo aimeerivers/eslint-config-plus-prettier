@@ -1,6 +1,5 @@
 {
   "rules": {
-    "no-caret-version-dependencies": "error",
     "no-caret-version-devDependencies": "error",
     "no-duplicate-properties": "error",
     "no-repeated-dependencies": "error",
@@ -9,6 +8,7 @@
     "prefer-alphabetical-dependencies": "error",
     "prefer-alphabetical-devDependencies": "error",
     "prefer-alphabetical-scripts": "error",
+    "prefer-caret-version-dependencies": "error",
     "prefer-property-order": ["error", []]
   }
 }
