@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-plus-prettier",
-  "version": "1.5.8",
+  "version": "1.5.9",
   "description": "Standard config for ESLint and Prettier",
   "license": "ISC",
   "author": "aimee rivers",
