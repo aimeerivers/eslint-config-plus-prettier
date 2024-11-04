@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.18](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.5.17...v1.5.18) (2024-11-04)
+
+
+### Dependencies
+
+* update dependencies ([#60](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/60)) ([5d318ab](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/5d318ab84d64a54d652c64368d30936072b4872f))
+
 ## [1.5.17](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.5.16...v1.5.17) (2024-10-28)
 
 
