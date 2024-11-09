@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.5.18...v1.6.0) (2024-11-09)
+
+
+### Features
+
+* Fix eslint version to 8.57.0 or above, but not 9.x ([#62](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/62)) ([b37fd61](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/b37fd6176589f37df5906b73d48b7b35ae33c2cf))
+
 ## [1.5.18](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.5.17...v1.5.18) (2024-11-04)
 
 
