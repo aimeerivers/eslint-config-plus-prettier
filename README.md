@@ -4,10 +4,13 @@ Standard config for ESLint, Prettier and Package Lint. Also includes an optional
 
 ## Install
 
-    npm install --save-dev eslint-config-plus-prettier
+```bash
+npm install --save-dev eslint-config-plus-prettier
+```
 
 Add the following scripts to your `package.json`:
 
+```json
     "scripts": {
       "format": "prettier --write .",
       "format:check": "prettier --check .",
@@ -15,29 +18,38 @@ Add the following scripts to your `package.json`:
       "lint:check": "eslint . --ext .ts,.js",
       "package:lint": "npx npm-package-json-lint ."
     }
+```
 
 ### Configure ESLint
 
 Add a `.eslintrc.json` file with the following:
 
-    {
-      "extends": "eslint-config-plus-prettier"
-    }
+```json
+{
+  "extends": "eslint-config-plus-prettier"
+}
+```
 
 Consider adding a `.eslintignore` file to avoid trying to lint compiled code in the `dist` folder:
 
-    dist
+```text
+dist
+```
 
 ### Configure Prettier
 
 Add prettier config to `package.json`:
 
+```json
     "prettier": "eslint-config-plus-prettier/.prettierrc.json"
+```
 
 Consider adding a `.prettierignore` file to avoid formatting generated files:
 
-    package-lock.json
-    CHANGELOG.md
+```text
+package-lock.json
+CHANGELOG.md
+```
 
 ### Configure Package Lint
 
@@ -53,19 +65,23 @@ Add a `.npmpackagejsonlintrc.json` file with the following:
 
 Add a `tsconfig.json` file with the following:
 
-    {
-      "extends": "eslint-config-plus-prettier/tsconfig.json",
-      "include": ["src"], // Files to be compiled
-      "compilerOptions": {
-        "outDir": "dist" // Compiled directory
-      }
-    }
+```json
+{
+  "extends": "eslint-config-plus-prettier/tsconfig.json",
+  "include": ["src"], // Files to be compiled
+  "compilerOptions": {
+    "outDir": "dist" // Compiled directory
+  }
+}
+```
 
 ## Use
 
-    npm run lint
-    npm run format
-    npm run package:lint
+```bash
+npm run lint
+npm run format
+npm run package:lint
+```
 
 - `lint` will check for errors and fix formatting in `.ts` and `.js` files.
 - `format` will apply format rules to all possible files.
