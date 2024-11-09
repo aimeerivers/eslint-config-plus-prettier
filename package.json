@@ -1,10 +1,11 @@
 {
   "name": "eslint-config-plus-prettier",
   "version": "1.6.0",
-  "description": "Standard config for ESLint and Prettier",
+  "description": "Standard config for ESLint, Prettier and Package Lint. Also includes an optional TSConfig.",
   "license": "ISC",
   "author": "aimee rivers",
   "files": [
+    ".npmpackagejsonlintrc.json",
     ".prettierrc.json",
     "index.js",
     "tsconfig.json"
@@ -25,9 +26,7 @@
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-promise": "^7.1.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
+    "npm-package-json-lint": "^8.0.0",
     "prettier": "^3.3.3"
-  },
-  "devDependencies": {
-    "npm-package-json-lint": "8.0.0"
   }
 }
