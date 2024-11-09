@@ -57,7 +57,7 @@ Add a `.npmpackagejsonlintrc.json` file with the following:
 
 ```json
 {
-	"extends": "eslint-config-plus-prettier/.npmpackagejsonlintrc.json"
+  "extends": "eslint-config-plus-prettier/.npmpackagejsonlintrc.json"
 }
 ```
 
