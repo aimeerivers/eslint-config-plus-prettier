@@ -5,6 +5,7 @@
   "license": "ISC",
   "author": "aimee rivers",
   "files": [
+    ".npmpackagejsonlintrc.json",
     ".prettierrc.json",
     "index.js",
     "tsconfig.json"
