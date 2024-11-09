@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.6.0...v1.7.0) (2024-11-09)
+
+
+### Features
+
+* Add Package Lint ([#66](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/66)) ([4485c9b](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/4485c9b6047568b81a3240bdaadc1f17aa2539a9))
+
 ## [1.6.0](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.5.18...v1.6.0) (2024-11-09)
 
 
