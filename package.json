@@ -5,12 +5,15 @@
   "license": "ISC",
   "author": "aimee rivers",
   "files": [
+    ".eslintrc.json",
     ".npmpackagejsonlintrc.json",
     ".prettierrc.json",
-    "index.js",
     "tsconfig.json"
   ],
-  "main": "index.js",
+  "exports": {
+    ".": "./.eslintrc.json"
+  },
+  "type": "module",
   "scripts": {
     "format": "prettier --write .",
     "format:check": "prettier --check .",
