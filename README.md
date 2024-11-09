@@ -1,6 +1,6 @@
 # eslint-config-plus-prettier
 
-Standard config for ESLint and Prettier. Also includes an optional TSConfig.
+Standard config for ESLint, Prettier and Package Lint. Also includes an optional TSConfig.
 
 ## Install
 
@@ -12,7 +12,8 @@ Add the following scripts to your `package.json`:
       "format": "prettier --write .",
       "format:check": "prettier --check .",
       "lint": "eslint . --ext .ts,.js --fix",
-      "lint:check": "eslint . --ext .ts,.js"
+      "lint:check": "eslint . --ext .ts,.js",
+      "package:lint": "npx npm-package-json-lint ."
     }
 
 ### Configure ESLint
@@ -38,6 +39,16 @@ Consider adding a `.prettierignore` file to avoid formatting generated files:
     package-lock.json
     CHANGELOG.md
 
+### Configure Package Lint
+
+Add a `.npmpackagejsonlintrc.json` file with the following:
+
+```json
+{
+	"extends": "eslint-config-plus-prettier/.npmpackagejsonlintrc.json"
+}
+```
+
 ### Configure TSConfig (optional)
 
 Add a `tsconfig.json` file with the following:
@@ -54,6 +65,8 @@ Add a `tsconfig.json` file with the following:
 
     npm run lint
     npm run format
+    npm run package:lint
 
 - `lint` will check for errors and fix formatting in `.ts` and `.js` files.
 - `format` will apply format rules to all possible files.
+- `package:lint` will warn of any inconsistencies in the `package.json` file.
