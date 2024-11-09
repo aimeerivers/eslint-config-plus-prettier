@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.7.1...v2.0.0) (2024-11-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* Convert to ES module ([#70](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/70))
+
+### Features
+
+* Convert to ES module ([#70](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/70)) ([42f438a](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/42f438a3d7ce4ed18c988a277c9ee75a5b7a18e9))
+
 ## [1.7.1](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.7.0...v1.7.1) (2024-11-09)
 
 
