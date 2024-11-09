@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.1](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.7.0...v1.7.1) (2024-11-09)
+
+
+### Dependencies
+
+* update dependencies ([#68](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/68)) ([78a7000](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/78a7000f4a16949246af5ab746582e7dc80337d1))
+
 ## [1.7.0](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.6.0...v1.7.0) (2024-11-09)
 
 
