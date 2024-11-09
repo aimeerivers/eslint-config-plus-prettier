@@ -11,7 +11,10 @@
     "tsconfig.json"
   ],
   "exports": {
-    ".": "./.eslintrc.json"
+    ".": "./.eslintrc.json",
+    "./.npmpackagejsonlintrc.json": "./.npmpackagejsonlintrc.json",
+    "./.prettierrc.json": "./.prettierrc.json",
+    "./tsconfig.json": "./tsconfig.json"
   },
   "type": "module",
   "scripts": {
