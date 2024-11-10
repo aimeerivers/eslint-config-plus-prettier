@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v2.0.0...v3.0.0) (2024-11-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* The `.eslintrc.json` file must be changed to an `eslint.config.js` file instead. See the README for its contents.
+
+### Features
+
+* Update to ES Lint 9.x ([#72](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/72)) ([e748261](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/e748261007636fc630f41aea291d31ebefcd2605))
+
 ## [2.0.0](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v1.7.1...v2.0.0) (2024-11-09)
 
 
