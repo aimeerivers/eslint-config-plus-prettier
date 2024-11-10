@@ -5,13 +5,17 @@
   "license": "ISC",
   "author": "aimee rivers",
   "files": [
-    ".eslintrc.json",
     ".npmpackagejsonlintrc.json",
     ".prettierrc.json",
+    "eslint.config.js",
+    "index.d.ts",
     "tsconfig.json"
   ],
   "exports": {
-    ".": "./.eslintrc.json",
+    ".": {
+      "import": "./eslint.config.js",
+      "types": "./index.d.ts"
+    },
     "./.npmpackagejsonlintrc.json": "./.npmpackagejsonlintrc.json",
     "./.prettierrc.json": "./.prettierrc.json",
     "./tsconfig.json": "./tsconfig.json"
@@ -20,13 +24,13 @@
   "scripts": {
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "lint": "eslint . --ext .ts,.js --fix",
-    "lint:check": "eslint . --ext .ts,.js",
+    "lint": "eslint --fix",
+    "lint:check": "eslint",
     "package:lint": "npx npm-package-json-lint ."
   },
   "dependencies": {
     "@typescript-eslint/parser": "^8.13.0",
-    "eslint": "^8.57.1",
+    "eslint": "^9.14.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-prettier": "^5.2.1",
