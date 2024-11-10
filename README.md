@@ -14,20 +14,20 @@ Add the following scripts to your `package.json`:
     "scripts": {
       "format": "prettier --write .",
       "format:check": "prettier --check .",
-      "lint": "eslint . --ext .ts,.js --fix",
-      "lint:check": "eslint . --ext .ts,.js",
+      "lint": "eslint --fix",
+      "lint:check": "eslint",
       "package:lint": "npx npm-package-json-lint ."
     }
 ```
 
 ### Configure ESLint
 
-Add a `.eslintrc.json` file with the following:
+Add a `eslint.config.js` file with the following:
 
-```json
-{
-  "extends": "eslint-config-plus-prettier"
-}
+```javascript
+import config from "eslint-config-plus-prettier";
+
+export default [config];
 ```
 
 Consider adding a `.eslintignore` file to avoid trying to lint compiled code in the `dist` folder:
