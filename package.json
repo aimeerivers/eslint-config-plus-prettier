@@ -16,9 +16,10 @@
       "import": "./eslint.config.js",
       "types": "./index.d.ts"
     },
-    "./.npmpackagejsonlintrc.json": "./.npmpackagejsonlintrc.json",
-    "./.prettierrc.json": "./.prettierrc.json",
-    "./tsconfig.json": "./tsconfig.json"
+    "./packagelint": "./.npmpackagejsonlintrc.json",
+    "./packagelint/server": "./.npmpackagejsonlintrc-server.json",
+    "./prettier": "./.prettierrc.json",
+    "./tsconfig": "./tsconfig.json"
   },
   "type": "module",
   "scripts": {
