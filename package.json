@@ -8,10 +8,14 @@
     ".npmpackagejsonlintrc.json",
     ".prettierrc.json",
     "eslint.config.js",
+    "index.d.ts",
     "tsconfig.json"
   ],
   "exports": {
-    ".": "./eslint.config.js",
+    ".": {
+      "import": "./eslint.config.js",
+      "types": "./index.d.ts"
+    },
     "./.npmpackagejsonlintrc.json": "./.npmpackagejsonlintrc.json",
     "./.prettierrc.json": "./.prettierrc.json",
     "./tsconfig.json": "./tsconfig.json"
