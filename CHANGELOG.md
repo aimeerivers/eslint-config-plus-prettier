@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.0](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v3.0.0...v4.0.0) (2024-11-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* Imports have changed for Prettier, TS Config and Package Lint. Please check the README.
+
+### Features
+
+* Enable a server configuration for Package Lint ([#74](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/74)) ([58c46d6](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/58c46d62ed7976c9ed8884f1c1959e22279403b8))
+
 ## [3.0.0](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v2.0.0...v3.0.0) (2024-11-10)
 
 
