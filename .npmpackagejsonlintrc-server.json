@@ -1,0 +1,7 @@
+{
+  "extends": "eslint-config-plus-prettier/packagelint",
+  "rules": {
+    "no-caret-version-dependencies": "error",
+    "prefer-caret-version-dependencies": "off"
+  }
+}
