@@ -41,7 +41,7 @@ dist
 Add prettier config to `package.json`:
 
 ```json
-    "prettier": "eslint-config-plus-prettier/.prettierrc.json"
+    "prettier": "eslint-config-plus-prettier/prettier"
 ```
 
 Consider adding a `.prettierignore` file to avoid formatting generated files:
@@ -55,9 +55,19 @@ CHANGELOG.md
 
 Add a `.npmpackagejsonlintrc.json` file with the following:
 
+If you are working on a module:
+
 ```json
 {
-  "extends": "eslint-config-plus-prettier/.npmpackagejsonlintrc.json"
+  "extends": "eslint-config-plus-prettier/packagelint"
+}
+```
+
+If you are working on a server, that needs fixed dependencies:
+
+```json
+{
+  "extends": "eslint-config-plus-prettier/packagelint/server"
 }
 ```
 
@@ -67,7 +77,7 @@ Add a `tsconfig.json` file with the following:
 
 ```json
 {
-  "extends": "eslint-config-plus-prettier/tsconfig.json",
+  "extends": "eslint-config-plus-prettier/tsconfig",
   "include": ["src"], // Files to be compiled
   "compilerOptions": {
     "outDir": "dist" // Compiled directory
