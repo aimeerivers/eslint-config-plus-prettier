@@ -3,6 +3,7 @@ import simpleImportSort from "eslint-plugin-simple-import-sort";
 import unusedImports from "eslint-plugin-unused-imports";
 
 export default {
+  ignores: ["dist/**", "node_modules/**"],
   languageOptions: {
     parser,
   },
