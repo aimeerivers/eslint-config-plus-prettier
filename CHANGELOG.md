@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.1.3](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v4.1.2...v4.1.3) (2024-11-29)
+
+
+### Bug Fixes
+
+* Get no-unused-vars from @typescript-eslint/eslint-plugin ([#84](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/84)) ([c6c1e1e](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/c6c1e1ea7dff8c531a0b511ec377a6ee86fa63b0))
+
 ## [4.1.2](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v4.1.1...v4.1.2) (2024-11-29)
 
 
