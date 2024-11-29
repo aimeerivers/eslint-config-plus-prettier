@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.1.1](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v4.1.0...v4.1.1) (2024-11-29)
+
+
+### Bug Fixes
+
+* Ignore dist and node_modules folders always ([#80](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/80)) ([a865407](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/a865407bba0a64110f1e3bcfb9dd13f44d55236a))
+
 ## [4.1.0](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v4.0.0...v4.1.0) (2024-11-29)
 
 
