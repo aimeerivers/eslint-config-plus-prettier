@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.1.0](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v4.0.0...v4.1.0) (2024-11-29)
+
+
+### Features
+
+* Use eslint-plugin-unused-imports to warn of unused imports and variables ([#76](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/76)) ([e2ab864](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/e2ab8643803d72698e945be28ed626fb5760da42))
+
 ## [4.0.0](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v3.0.0...v4.0.0) (2024-11-10)
 
 
