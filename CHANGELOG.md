@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.1.2](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v4.1.1...v4.1.2) (2024-11-29)
+
+
+### Bug Fixes
+
+* Enable ignoring unused args ([#82](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/82)) ([d34f5ce](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/d34f5ce35eb304465ac0dcdc2c8c3bc3c1d8e094))
+
 ## [4.1.1](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v4.1.0...v4.1.1) (2024-11-29)
 
 
