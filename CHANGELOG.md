@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.1.10](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v4.1.9...v4.1.10) (2025-06-07)
+
+
+### Documentation
+
+* update README with installation instructions for eslint-config-plus-prettier ([#104](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/104)) ([8807ce4](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/8807ce49cf9b2d8bd1069002993fb146ab0170f9))
+
 ## [4.1.9](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v4.1.8...v4.1.9) (2025-06-07)
 
 
