@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.1.11](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v4.1.10...v4.1.11) (2025-06-07)
+
+
+### Documentation
+
+* Update the documentation with the correct way to ignore files and folders ([#106](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/106)) ([379c336](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/379c336c07606a324ecd91f6488f91311478e5f9))
+
 ## [4.1.10](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v4.1.9...v4.1.10) (2025-06-07)
 
 
