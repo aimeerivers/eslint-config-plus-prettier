@@ -16,15 +16,6 @@ export default {
   files: ["**/*.ts", "**/*.js"],
   rules: {
     "@typescript-eslint/no-floating-promises": ["off"],
-    "@typescript-eslint/no-unused-vars": [
-      "warn",
-      {
-        vars: "all",
-        varsIgnorePattern: "^_",
-        args: "after-used",
-        argsIgnorePattern: "^_",
-      },
-    ],
     "prefer-const": [
       "error",
       {
@@ -36,5 +27,6 @@ export default {
     "simple-import-sort/exports": "error",
     quotes: ["error", "double"],
     "unused-imports/no-unused-imports": "warn",
+    "no-unused-vars": "warn",
   },
 };
