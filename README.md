@@ -34,11 +34,20 @@ import config from "eslint-config-plus-prettier";
 export default [config];
 ```
 
-Consider adding a `.eslintignore` file to avoid trying to lint compiled code in the `dist` folder:
+To exclude specific folders or files from linting, add an `ignores` configuration:
 
-```text
-dist
+```javascript
+import config from "eslint-config-plus-prettier";
+
+export default [
+  config,
+  {
+    ignores: ["_site/**", "build/**", "*.min.js"],
+  },
+];
 ```
+
+> **Note:** `dist/**` and `node_modules/**` are ignored by default.
 
 ### Prettier
 
