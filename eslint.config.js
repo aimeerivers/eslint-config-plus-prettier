@@ -27,5 +27,6 @@ export default {
     "simple-import-sort/exports": "error",
     quotes: ["error", "double"],
     "unused-imports/no-unused-imports": "warn",
+    "no-unused-vars": "warn",
   },
 };
