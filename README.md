@@ -57,6 +57,7 @@ dist
 Create a `.npmpackagejsonlintrc.json` file in your project root:
 
 **For npm modules/libraries:**
+
 ```json
 {
   "extends": "eslint-config-plus-prettier/packagelint"
@@ -64,6 +65,7 @@ Create a `.npmpackagejsonlintrc.json` file in your project root:
 ```
 
 **For applications/servers (with fixed dependencies):**
+
 ```json
 {
   "extends": "eslint-config-plus-prettier/packagelint/server"
@@ -108,6 +110,7 @@ npm run lint:check
 ## What's Included
 
 ### ESLint Rules
+
 - **TypeScript support** with `@typescript-eslint` parser and plugin
 - **Import sorting** with `simple-import-sort` plugin
 - **Unused import removal** with `unused-imports` plugin
@@ -116,6 +119,7 @@ npm run lint:check
 - **Unused variable warnings** (with underscore prefix exception)
 
 ### Prettier Configuration
+
 - **Double quotes** for strings
 - **Semicolons** enabled
 - **Trailing commas** in ES5-compatible locations
@@ -123,6 +127,7 @@ npm run lint:check
 - **2 spaces** for indentation
 
 ### Package Lint Rules
+
 - Validates `package.json` structure and dependencies
 - Different rulesets for modules vs. applications
 - Ensures consistent package metadata
@@ -130,15 +135,18 @@ npm run lint:check
 ## Troubleshooting
 
 ### ESLint Issues
+
 - Make sure you're using ESLint v9+ for flat config support
 - Check that your `eslint.config.js` is in the project root
 - Verify all files you want to lint match the file patterns
 
 ### Prettier Conflicts
+
 - This config uses `eslint-config-prettier` to disable conflicting ESLint rules
 - If you see formatting conflicts, check your `.prettierignore` file
 
 ### Import Errors
+
 - Ensure you're using ES modules (`"type": "module"` in package.json)
 - For CommonJS projects, use `.cjs` extension for config files
 
