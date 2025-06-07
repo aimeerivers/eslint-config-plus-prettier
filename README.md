@@ -4,6 +4,12 @@
 
 ## Quick Setup
 
+Install the package:
+
+```bash
+npm install --save-dev --save-exact eslint-config-plus-prettier
+```
+
 Add the following scripts to your `package.json`:
 
 ```json
