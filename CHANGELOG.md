@@ -1,5 +1,18 @@
 # Changelog
 
+## [4.1.9](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v4.1.8...v4.1.9) (2025-06-07)
+
+
+### Chores
+
+* Update dependencies and use built-in no-unused-vars rule ([#100](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/100)) ([8162c06](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/8162c067701226379a6dc534250b2e2a7ea26632))
+
+
+### Documentation
+
+* add instructions and guidelines for using the eslint-config-plus-prettier package ([#98](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/98)) ([b8950aa](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/b8950aad8f073ec106ac9b63e1677dd7fea5387d))
+* Improve README with suggestions from copilot ([#99](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/99)) ([60066a1](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/60066a1e017c95ee9ccc135594f1e64746d28597))
+
 ## [4.1.8](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v4.1.7...v4.1.8) (2025-04-10)
 
 
