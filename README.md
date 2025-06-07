@@ -1,26 +1,24 @@
 # eslint-config-plus-prettier
 
-Standard config for ESLint, Prettier and Package Lint. Also includes an optional TSConfig.
+> Standard config for ESLint, Prettier and Package Lint. Also includes an optional TSConfig.
 
-## Install
-
-```bash
-npm install --save-dev eslint-config-plus-prettier
-```
+## Quick Setup
 
 Add the following scripts to your `package.json`:
 
 ```json
-    "scripts": {
-      "format": "prettier --write .",
-      "format:check": "prettier --check .",
-      "lint": "eslint --fix",
-      "lint:check": "eslint",
-      "package:lint": "npx npm-package-json-lint ."
-    }
+{
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint --fix",
+    "lint:check": "eslint",
+    "package:lint": "npx npm-package-json-lint ."
+  }
+}
 ```
 
-### Configure ESLint
+## Configuration
 
 Add a `eslint.config.js` file with the following:
 
@@ -36,26 +34,29 @@ Consider adding a `.eslintignore` file to avoid trying to lint compiled code in 
 dist
 ```
 
-### Configure Prettier
+### Prettier
 
-Add prettier config to `package.json`:
+Add prettier configuration to your `package.json`:
 
 ```json
-    "prettier": "eslint-config-plus-prettier/prettier"
+{
+  "prettier": "eslint-config-plus-prettier/prettier"
+}
 ```
 
-Consider adding a `.prettierignore` file to avoid formatting generated files:
+**Optional**: Create a `.prettierignore` file to exclude generated files:
 
 ```text
 package-lock.json
 CHANGELOG.md
+dist
 ```
 
-### Configure Package Lint
+### Package Lint
 
-Add a `.npmpackagejsonlintrc.json` file with the following:
+Create a `.npmpackagejsonlintrc.json` file in your project root:
 
-If you are working on a module:
+**For npm modules/libraries:**
 
 ```json
 {
@@ -63,7 +64,7 @@ If you are working on a module:
 }
 ```
 
-If you are working on a server, that needs fixed dependencies:
+**For applications/servers (with fixed dependencies):**
 
 ```json
 {
@@ -71,28 +72,84 @@ If you are working on a server, that needs fixed dependencies:
 }
 ```
 
-### Configure TSConfig (optional)
+### TypeScript (Optional)
 
-Add a `tsconfig.json` file with the following:
+Create a `tsconfig.json` file for TypeScript projects:
 
 ```json
 {
   "extends": "eslint-config-plus-prettier/tsconfig",
-  "include": ["src"], // Files to be compiled
+  "include": ["src/**/*"],
   "compilerOptions": {
-    "outDir": "dist" // Compiled directory
+    "outDir": "dist"
   }
 }
 ```
 
-## Use
+## Usage
+
+Run the following commands to lint and format your code:
 
 ```bash
+# Lint and auto-fix JavaScript/TypeScript files
 npm run lint
+
+# Format all files with Prettier
 npm run format
+
+# Validate package.json structure
 npm run package:lint
+
+# Check formatting without making changes
+npm run format:check
+
+# Check linting without auto-fixing
+npm run lint:check
 ```
 
-- `lint` will check for errors and fix formatting in `.ts` and `.js` files.
-- `format` will apply format rules to all possible files.
-- `package:lint` will warn of any inconsistencies in the `package.json` file.
+## What's Included
+
+### ESLint Rules
+
+- **TypeScript support** with `@typescript-eslint` parser and plugin
+- **Import sorting** with `simple-import-sort` plugin
+- **Unused import removal** with `unused-imports` plugin
+- **Consistent quotes** (double quotes)
+- **Prefer const** for immutable variables
+- **Unused variable warnings** (with underscore prefix exception)
+
+### Prettier Configuration
+
+- **Double quotes** for strings
+- **Semicolons** enabled
+- **Trailing commas** in ES5-compatible locations
+- **120 character** line width
+- **2 spaces** for indentation
+
+### Package Lint Rules
+
+- Validates `package.json` structure and dependencies
+- Different rulesets for modules vs. applications
+- Ensures consistent package metadata
+
+## Troubleshooting
+
+### ESLint Issues
+
+- Make sure you're using ESLint v9+ for flat config support
+- Check that your `eslint.config.js` is in the project root
+- Verify all files you want to lint match the file patterns
+
+### Prettier Conflicts
+
+- This config uses `eslint-config-prettier` to disable conflicting ESLint rules
+- If you see formatting conflicts, check your `.prettierignore` file
+
+### Import Errors
+
+- Ensure you're using ES modules (`"type": "module"` in package.json)
+- For CommonJS projects, use `.cjs` extension for config files
+
+## Contributing
+
+Found an issue or have a suggestion? Please [open an issue](https://github.com/aimeerivers/eslint-config-plus-prettier/issues) or submit a pull request.
