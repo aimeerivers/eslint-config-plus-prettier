@@ -16,15 +16,6 @@ export default {
   files: ["**/*.ts", "**/*.js"],
   rules: {
     "@typescript-eslint/no-floating-promises": ["off"],
-    "@typescript-eslint/no-unused-vars": [
-      "warn",
-      {
-        vars: "all",
-        varsIgnorePattern: "^_",
-        args: "after-used",
-        argsIgnorePattern: "^_",
-      },
-    ],
     "prefer-const": [
       "error",
       {
