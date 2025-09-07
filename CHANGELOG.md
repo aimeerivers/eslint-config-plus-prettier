@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.2.0](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v4.1.16...v4.2.0) (2025-09-07)
+
+
+### Features
+
+* **tsconfig:** allow synthetic default imports ([#118](https://github.com/aimeerivers/eslint-config-plus-prettier/issues/118)) ([e4b1bcd](https://github.com/aimeerivers/eslint-config-plus-prettier/commit/e4b1bcd32d422287abbcec06f322c186a31df3c0))
+
 ## [4.1.16](https://github.com/aimeerivers/eslint-config-plus-prettier/compare/v4.1.15...v4.1.16) (2025-08-25)
 
 
